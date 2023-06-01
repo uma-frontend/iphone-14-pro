@@ -1,7 +1,7 @@
 /* GLOBAL STYLES */
    /*Custom property*/
 :root{
-   --text-font: sans-serif;/* - */
+   --text-font: "Inter", sans-serif;/* - */
    --accent-color: #000;
    --main-text-color: #000;
    --bg-color: #fff;
