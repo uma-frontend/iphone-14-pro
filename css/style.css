@@ -331,7 +331,12 @@ li{
 
 }
 
-.contact__main-btn:active{}
+.contact__main-btn:active{
+   border: 1px solid #fff;
+   background-color: #574b63;
+   color: #fff;
+   opacity: 0.6;
+}
 
 .contact__img-wrap {
    display: flex;
