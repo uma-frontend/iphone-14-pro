@@ -216,9 +216,6 @@ li{
    padding: 150px 0px;
 }
 
-.color__container {
-}
-
 .color__list {
    display: flex;
    flex-wrap: wrap;
@@ -232,9 +229,6 @@ li{
 .color__img-wrap {
    display: flex;
    margin: 0px 0px 20px 0px;
-}
-
-.color__img {
 }
 
 .color__info {
