@@ -212,6 +212,48 @@ li{
 
 
 /*COLOR*/
+.color {
+   padding: 150px 0px;
+}
+
+.color__container {
+}
+
+.color__list {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0px 0px 0px -80px;
+}
+
+.color__item {
+   margin: 0px 0px 0px 80px;
+}
+
+.color__img-wrap {
+   display: flex;
+   margin: 0px 0px 20px 0px;
+}
+
+.color__img {
+}
+
+.color__info {
+   text-align: center;
+}
+
+.color__info-title {
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 1.3;
+   margin: 0px 0px 10px 0px;
+}
+
+.color__info-text {
+   font-size: 14px;
+   line-height: 1.3;
+}
+
+
 /*CONTACT*/
 
 /*SITE FOOTER*/
