@@ -23,6 +23,15 @@ html{
    box-sizing: inherit;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   margin: 0;
+}
+
 /* BODY */
 body{
    display: flex;
@@ -112,6 +121,52 @@ li{
 /*MAIN SECTION*/
 
 /*HERO*/
+.hero {
+   background-color: #F5F5F7;
+   padding: 71px 0px 40px 0px;
+}
+
+.hero__container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.hero__heading {
+   font-size: 64px;
+   font-weight: 700;
+   line-height: normal;
+   color: var(--accent-color);
+   text-transform: uppercase;
+   margin: 0px 0px 40px 0px;
+}
+
+.hero__img-wrap {
+   display: flex;
+   margin: 0px 0px 47px 0px;
+}
+
+.hero__btn {
+   display: inline-block;
+   padding: 20px 118px;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: normal;
+   background-color: var(--accent-color);
+   color: var(--white-color);
+   text-transform: uppercase;
+   border-radius: 30px;
+   transition: opacity 0.2s ease-in-out;
+}
+
+/*hover and active*/
+.hero__btn:hover{
+   opacity: 0.8;
+}
+.hero__btn:active{
+   opacity: 0.6;
+}
+
 /*NEWS*/
 /*COLOR*/
 /*CONTACT*/
